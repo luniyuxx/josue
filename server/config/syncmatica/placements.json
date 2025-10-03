@@ -1,0 +1,23 @@
+{
+  "placements": [
+    {
+      "id": "82e13418-0014-4334-a418-eed6254b7800",
+      "file_name": "granjamodulo 1",
+      "hash": "0a71f0b0-4d6a-3cdd-948a-15b99097fd1f",
+      "origin": {
+        "position": [
+          567,
+          72,
+          -280
+        ],
+        "dimension": "minecraft:overworld"
+      },
+      "rotation": "NONE",
+      "mirror": "NONE",
+      "owner": {
+        "uuid": "e25aba2a-4334-376d-b48c-98814a8ca31f",
+        "name": "xXxJosue_A"
+      }
+    }
+  ]
+}
