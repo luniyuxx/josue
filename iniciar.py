@@ -4,8 +4,8 @@ import os
 import sys
 
 # Directorios
-server_dir = "/workspaces/upgraded-octo-tribble/server"
-playit_dir = "/workspaces/upgraded-octo-tribble/playit"
+server_dir = "/workspaces/josue/server"
+playit_dir = "/workspaces/josue/playit"
 
 # Iniciar playit
 print("Iniciando Playit...")
@@ -44,7 +44,7 @@ server_process = subprocess.Popen(
         "-Dusing.aikars.flags=https://mcflags.emc.gs",
         "-Daikars.new.flags=true",
         "-jar",
-        "/workspaces/upgraded-octo-tribble/server/java-execute.jar"
+        "/workspaces/josue/server/java-execute.jar"
     ],
     cwd=server_dir,
     stdout=sys.stdout,

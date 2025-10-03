@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # Navegar al repositorio 
-cd /workspaces/upgraded-octo-tribble
+cd /workspaces/josue
 
 # Añadir todos los cambios
 git add .
 
 # Hacer commit con mensaje
-git commit -m "Actualización del mundo"
+git commit -m "pupiales"
 
 # Subir los cambios a GitHub
 git push origin main
