@@ -1,8 +1,8 @@
-[19:05:16] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.17.2
-[19:05:18] [main/WARN]: Warnings were found!
+[20:32:35] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.17.2
+[20:32:36] [main/WARN]: Warnings were found!
  - Mod 'Debugify' (debugify) 1.20.1+2.0 recommends any 3.x version of yet-another-config-lib, which is missing!
 	 - You should install any 3.x version of yet-another-config-lib for the optimal experience.
-[19:05:18] [main/INFO]: Loading 91 mods:
+[20:32:36] [main/INFO]: Loading 91 mods:
 	- architectury 9.2.14
 	- balm 7.3.36
 	   \-- kuma_api 20.1.12
@@ -107,209 +107,144 @@
 	   |-- com_twelvemonkeys_imageio_imageio-webp 3.12.0
 	   |-- org_quiltmc_parsers_gson 0.2.1
 	   \-- org_quiltmc_parsers_json 0.2.1
-[19:05:19] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/josue/server/libraries/net/fabricmc/sponge-mixin/0.16.3+mixin.0.8.7/sponge-mixin-0.16.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[19:05:19] [main/INFO]: Compatibility level set to JAVA_16
-[19:05:19] [main/INFO]: Compatibility level set to JAVA_17
-[19:05:19] [main/INFO]: Compatibility level set to JAVA_21
-[19:05:19] [main/INFO]: Preloading Debugify
-[19:05:19] [main/INFO]: Loaded configuration file for Lithium: 131 options available, 3 override(s) found
-[19:05:19] [main/INFO]: Loaded configuration file for ModernFix 5.24.4+mc1.20.1: 70 options available, 0 override(s) found
-[19:05:19] [main/INFO]: Applying Nashorn fix
-[19:05:21] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
-[19:05:21] [main/WARN]: Force-disabling mixin 'alloc.chunk_ticking.ServerChunkManagerMixin' as rule 'mixin.alloc.chunk_ticking' (added by mods [servercore]) disables it and children
-[19:05:21] [main/WARN]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [krypton]) disables it and children
-[19:05:21] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[19:05:24] [main/INFO]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[19:05:24] [main/INFO]: Injecting BlockStateBase cache population hook into getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[19:05:24] [main/INFO]: Injecting BlockStateBase cache population hook into getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
-[19:05:26] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
-[19:05:26] [main/INFO]: Vanilla bootstrap took 3887 milliseconds
-[19:05:26] [main/INFO]: Enabled 34 bug fixes: [MC-2025, MC-7569, MC-8187, MC-14923, MC-30391, MC-31819, MC-69216, MC-72151, MC-88371, MC-89146, MC-90084, MC-93018, MC-100991, MC-119417, MC-119754, MC-121706, MC-121903, MC-124117, MC-129909, MC-132878, MC-135971, MC-155509, MC-160095, MC-179072, MC-183990, MC-193343, MC-199467, MC-200418, MC-206922, MC-215530, MC-223153, MC-224729, MC-231743, MC-232869]
-[19:05:26] [main/INFO]: Successfully Debugify'd your game!
-[19:05:26] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 3.0.x (Linux x86_64)
-[19:05:26] [main/INFO]: [ServerCore] Loaded V1.5.2+1.20.1!
-[19:05:27] [main/INFO]: INITIALIZING...
-[19:05:27] [main/INFO]: REGISTERING BACK COMMAND...
-[19:05:27] [main/INFO]: REGISTERING TPAACCEPT COMMAND...
-[19:05:27] [main/INFO]: REGISTERING TPACANCEL COMMAND...
-[19:05:27] [main/INFO]: REGISTERING TPA COMMAND...
-[19:05:27] [main/INFO]: REGISTERING TPADENY COMMAND...
-[19:05:27] [main/INFO]: REGISTERING TPAHERE COMMAND...
-[19:05:27] [main/INFO]: REGISTERING TPAPLUSPLUS COMMAND...
-[19:05:27] [main/INFO]: REGISTERING TPBLOCK COMMAND...
-[19:05:27] [main/INFO]: REGISTERING TPTOGGLE COMMAND...
-[19:05:27] [main/INFO]: REGISTERING TPUNBLOCK COMMAND...
-[19:05:27] [main/INFO]: REGISTERING "LifecycleEvent.SERVER_STARTED"...
-[19:05:27] [main/INFO]: REGISTERING "LifecycleEvent.SERVER_STOPPING"...
-[19:05:27] [main/INFO]: REGISTERING "LifecycleEvent.LIVING_DEATH"...
-[19:05:27] [main/INFO]: REGISTERING "PlayerEvent.PLAYER_JOIN"...
-[19:05:27] [main/INFO]: REGISTERING "PlayerEvent.PLAYER_LEAVE"...
-[19:05:27] [main/INFO]: REGISTERING "RequestTimeoutEvent"...
-[19:05:27] [main/WARN]: USING EXPERIMENTAL NON BLOCKING TICK LOOP
-[19:05:27] [main/INFO]: INITIALIZING TICK LOOP WITH RATE OF 20...
-[19:05:27] [main/INFO]: ...INITIALIZATION COMPLETE
-[19:05:27] [main/INFO]: Registering C2S receiver with id skin_changer:mbechannel/c6416779da663f62836ae72f0509aa3e
-[19:05:27] [main/INFO]: Registering C2S receiver with id skin_changer:mbechannel/8489ea5ae87e3a6199b65ea21ca8f8c8
-[19:05:27] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
-[19:05:27] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[19:05:27] [main/INFO]: Bypassed Mojang DFU
-[19:05:28] [DefaultDispatcher-worker-2/WARN]: You are running an outdated version of TPA++, latest version: 1.6.0-1.20.x-UNTESTED-BETA-3, your version: 1.6.0-1.20.x-RELEASE-CANDIDATE-1!
-[19:05:28] [DefaultDispatcher-worker-2/WARN]: You are 1 version(s) out of date!
-[19:05:29] [main/INFO]: Loaded 7 recipes
-[19:05:30] [main/INFO]: Loaded 1271 advancements
-[19:05:30] [main/WARN]: Initial datapack load took 2.308 s
-[19:05:30] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 1.538 ms
-[19:05:30] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[19:05:30] [Server thread/INFO]: Loading properties
-[19:05:30] [Server thread/INFO]: Default game type: SURVIVAL
-[19:05:30] [Server thread/INFO]: Generating keypair
-[19:05:30] [Server thread/INFO]: Starting Minecraft server on *:25565
-[19:05:30] [Server thread/INFO]: Using epoll channel type
-[19:05:30] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[19:05:30] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[19:05:30] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[19:05:30] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[19:05:30] [Server thread/INFO]: Preparing level "world"
-[19:05:30] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[19:05:30] [Server thread/WARN]: Method overwrite conflict for removeIf in modernfix-common.mixins.json:bugfix.paper_chunk_patches.SortedArraySetMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.chunk_tickets.SortedArraySetMixin. Skipping method.
-[19:05:32] [Server thread/INFO]: Preparing spawn area: 0%
-[19:05:32] [Server thread/INFO]: Preparing spawn area: 0%
-[19:05:32] [Server thread/INFO]: Preparing spawn area: 0%
-[19:05:32] [Server thread/INFO]: Preparing spawn area: 0%
-[19:05:33] [Server thread/INFO]: Time elapsed: 2112 ms
-[19:05:33] [Server thread/INFO]: Done (2.577s)! For help, type "help"
-[19:05:33] [Server thread/WARN]: Dedicated server took 25.798 seconds to load
-[19:05:33] [Server thread/INFO]: Successfully loaded player data!
-[19:06:33] [Server thread/INFO]: xXxJosue_A[/127.85.241.3:45689] logged in with entity id 82 at (1419.699999988079, 192.1875, -174.6357540945756)
-[19:06:33] [Server thread/INFO]: xXxJosue_A joined the game
-[19:06:33] [Server thread/INFO]: Player xXxJosue_A just logged in with id e25aba2a-4334-376d-b48c-98814a8ca31f
-[19:06:33] [ForkJoinPool-4-worker-1/INFO]: Loading local skin for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
-[19:06:33] [ForkJoinPool-4-worker-1/INFO]: Error downloading file https://playerdb.co/api/player/minecraft/xXxJosue_A
-[19:06:36] [Server thread/INFO]: Syncmatica client joining with local version 0.3.11 and client version 0.3.10
-[19:07:28] [Server thread/INFO]: [Not Secure] [Server] pendjos miembros del deves
-[19:07:29] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[19:07:29] [Server thread/INFO]: <--[HERE]
-[19:07:45] [Server thread/INFO]: [Not Secure] <xXxJosue_A> ve+
-[19:08:10] [Server thread/INFO]: [Not Secure] <xXxJosue_A> que carajos se queja el chen de el almacen
-[19:08:14] [Server thread/INFO]: [Not Secure] <xXxJosue_A> ta vien}
-[19:08:52] [Server thread/INFO]: [Not Secure] [Server] vien
-[19:09:07] [Server thread/INFO]: [Not Secure] <xXxJosue_A> bien+
-[19:09:10] [Server thread/INFO]: [Not Secure] <xXxJosue_A> puta}}
-[19:10:48] [Server thread/INFO]: ItsMeYo[/127.37.229.33:42899] logged in with entity id 781 at (572.570187190202, 64.0, -248.72339468141155)
-[19:10:48] [Server thread/INFO]: ItsMeYo joined the game
-[19:10:48] [Server thread/INFO]: Player ItsMeYo just logged in with id 4b422bb3-5778-30ef-90d3-fa62ebf0458b
-[19:10:48] [ForkJoinPool-4-worker-2/INFO]: Loading local skin for player ItsMeYo[4b422bb3-5778-30ef-90d3-fa62ebf0458b]
-[19:10:48] [ForkJoinPool-4-worker-2/INFO]: File https://playerdb.co/api/player/minecraft/ItsMeYo downloaded
-[19:10:50] [Server thread/INFO]: Syncmatica client joining with local version 0.3.11 and client version 0.3.11
-[19:13:18] [Server thread/INFO]: [Not Secure] [Server] jajjaja
-[19:18:31] [Server thread/INFO]: [Not Secure] [Server] pasa mate
-[19:25:11] [Server thread/INFO]: ItsMeYo lost connection: Disconnected
-[19:25:11] [Server thread/INFO]: ItsMeYo left the game
-[19:25:11] [Server thread/INFO]: Removing session data for player ItsMeYo[4b422bb3-5778-30ef-90d3-fa62ebf0458b]
-[19:25:57] [Server thread/INFO]: ItsMeYo[/127.37.229.33:34409] logged in with entity id 4824 at (570.538999940004, 63.875, -276.09919956321954)
-[19:25:57] [Server thread/INFO]: ItsMeYo joined the game
-[19:25:57] [Server thread/INFO]: Player ItsMeYo just logged in with id 4b422bb3-5778-30ef-90d3-fa62ebf0458b
-[19:25:57] [ForkJoinPool-4-worker-3/INFO]: Loading local skin for player ItsMeYo[4b422bb3-5778-30ef-90d3-fa62ebf0458b]
-[19:25:58] [ForkJoinPool-4-worker-3/INFO]: File https://playerdb.co/api/player/minecraft/ItsMeYo downloaded
-[19:26:04] [Server thread/INFO]: Syncmatica client joining with local version 0.3.11 and client version 0.3.11
-[19:32:45] [Server thread/INFO]: [Not Secure] [Server] no ❤️
-[19:36:00] [Server thread/WARN]: ItsMeYo moved too quickly! 0.6159756482938974,-10.825631287039869,1.637659884547162
-[19:40:57] [Server thread/INFO]: xXxJosue_A lost connection: Disconnected
-[19:40:57] [Server thread/INFO]: xXxJosue_A left the game
-[19:40:57] [Server thread/INFO]: Removing session data for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
-[19:41:33] [Server thread/INFO]: [Not Secure] [Server] que
-[19:41:59] [Server thread/INFO]: [Not Secure] [Server] XD
-[19:42:29] [Server thread/INFO]: [Not Secure] [Server] creesqe es facil escribr aqui
-[19:44:12] [Server thread/INFO]: xXxJosue_A[/127.85.241.3:46225] logged in with entity id 12142 at (570.8520272947736, 63.0, -277.92157446793607)
-[19:44:12] [Server thread/INFO]: xXxJosue_A joined the game
-[19:44:12] [Server thread/INFO]: Player xXxJosue_A just logged in with id e25aba2a-4334-376d-b48c-98814a8ca31f
-[19:44:12] [ForkJoinPool-4-worker-4/INFO]: Loading local skin for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
-[19:44:12] [ForkJoinPool-4-worker-4/INFO]: Error downloading file https://playerdb.co/api/player/minecraft/xXxJosue_A
-[19:44:29] [Server thread/INFO]: Syncmatica client joining with local version 0.3.11 and client version 0.3.10
-[19:45:18] [Server thread/INFO]: [Not Secure] [Server] ❤️
-[19:45:52] [Server thread/INFO]: [Not Secure] <xXxJosue_A> zzzz
-[19:45:57] [Server thread/INFO]: [Not Secure] [Server] JJAJAJAJA
-[19:46:34] [Server thread/INFO]: [Not Secure] [Server] lo saco
-[19:46:59] [Server thread/INFO]: [Not Secure] <xXxJosue_A> zzzz
-[19:47:00] [Server thread/INFO]: [Not Secure] <xXxJosue_A> z
-[19:47:00] [Server thread/INFO]: [Not Secure] <xXxJosue_A> z
-[19:47:00] [Server thread/INFO]: [Not Secure] <xXxJosue_A> z
-[19:47:00] [Server thread/INFO]: [Not Secure] <xXxJosue_A> z
-[19:47:01] [Server thread/INFO]: [Not Secure] <xXxJosue_A> z
-[19:47:01] [Server thread/INFO]: [Not Secure] <xXxJosue_A> z
-[19:47:01] [Server thread/INFO]: [Not Secure] <xXxJosue_A> z
-[19:47:01] [Server thread/INFO]: [Not Secure] <xXxJosue_A> z
-[19:47:01] [Server thread/INFO]: [Not Secure] <xXxJosue_A> z
-[19:47:02] [Server thread/INFO]: [Not Secure] <ItsMeYo> zzzzzz
-[19:47:02] [Server thread/INFO]: [Not Secure] <xXxJosue_A> z
-[19:47:02] [Server thread/INFO]: [Not Secure] <xXxJosue_A> z
-[19:47:02] [Server thread/INFO]: [Not Secure] <xXxJosue_A> z
-[19:47:02] [Server thread/INFO]: [Not Secure] <ItsMeYo> zzz
-[19:47:02] [Server thread/INFO]: xXxJosue_A lost connection: Kicked for spamming
-[19:47:02] [Server thread/INFO]: xXxJosue_A left the game
-[19:47:02] [Server thread/INFO]: Removing session data for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
-[19:47:08] [Server thread/INFO]: xXxJosue_A[/127.85.241.3:59775] logged in with entity id 12771 at (573.5, 64.5625, -247.5)
-[19:47:08] [Server thread/INFO]: xXxJosue_A joined the game
-[19:47:08] [Server thread/INFO]: Player xXxJosue_A just logged in with id e25aba2a-4334-376d-b48c-98814a8ca31f
-[19:47:08] [ForkJoinPool-4-worker-5/INFO]: Loading local skin for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
-[19:47:08] [ForkJoinPool-4-worker-5/INFO]: Error downloading file https://playerdb.co/api/player/minecraft/xXxJosue_A
-[19:47:16] [Server thread/INFO]: Syncmatica client joining with local version 0.3.11 and client version 0.3.10
-[19:51:06] [Server thread/INFO]: [Not Secure] [Server] 😭😭😭😭😭
-[19:51:39] [Server thread/INFO]: ItsMeYo lost connection: Disconnected
-[19:51:39] [Server thread/INFO]: ItsMeYo left the game
-[19:51:39] [Server thread/INFO]: Removing session data for player ItsMeYo[4b422bb3-5778-30ef-90d3-fa62ebf0458b]
-[19:51:44] [Server thread/INFO]: ItsMeYo[/127.37.229.33:46601] logged in with entity id 14456 at (582.3000000119209, 63.5, -255.98494790392155)
-[19:51:44] [Server thread/INFO]: ItsMeYo joined the game
-[19:51:44] [Server thread/INFO]: Player ItsMeYo just logged in with id 4b422bb3-5778-30ef-90d3-fa62ebf0458b
-[19:51:44] [ForkJoinPool-4-worker-6/INFO]: Loading local skin for player ItsMeYo[4b422bb3-5778-30ef-90d3-fa62ebf0458b]
-[19:51:44] [ForkJoinPool-4-worker-6/INFO]: File https://playerdb.co/api/player/minecraft/ItsMeYo downloaded
-[19:51:54] [Server thread/INFO]: Syncmatica client joining with local version 0.3.11 and client version 0.3.11
-[19:53:24] [Server thread/INFO]: [Not Secure] [Server] XD
-[19:54:28] [Server thread/INFO]: [Not Secure] [Server] lista de utiles, un murcielalsay lputaaaaaaaaaa
-[19:56:43] [Server thread/INFO]: [Not Secure] [Server] un reinicio resuelve
-[19:58:27] [Server thread/INFO]: ItsMeYo lost connection: Disconnected
-[19:58:27] [Server thread/INFO]: ItsMeYo left the game
-[19:58:27] [Server thread/INFO]: Removing session data for player ItsMeYo[4b422bb3-5778-30ef-90d3-fa62ebf0458b]
-[20:00:02] [Server thread/INFO]: ItsMeYo[/127.37.229.33:51523] logged in with entity id 16355 at (1417.5605948335583, 63.5, -171.75102001461664)
-[20:00:02] [Server thread/INFO]: ItsMeYo joined the game
-[20:00:02] [Server thread/INFO]: Player ItsMeYo just logged in with id 4b422bb3-5778-30ef-90d3-fa62ebf0458b
-[20:00:02] [ForkJoinPool-4-worker-7/INFO]: Loading local skin for player ItsMeYo[4b422bb3-5778-30ef-90d3-fa62ebf0458b]
-[20:00:02] [ForkJoinPool-4-worker-7/INFO]: File https://playerdb.co/api/player/minecraft/ItsMeYo downloaded
-[20:00:06] [Server thread/INFO]: Syncmatica client joining with local version 0.3.11 and client version 0.3.11
-[20:05:27] [DefaultDispatcher-worker-2/WARN]: You are running an outdated version of TPA++, latest version: 1.6.0-1.20.x-UNTESTED-BETA-3, your version: 1.6.0-1.20.x-RELEASE-CANDIDATE-1!
-[20:05:27] [DefaultDispatcher-worker-2/WARN]: You are 1 version(s) out of date!
-[20:08:01] [Server thread/INFO]: [Not Secure] <ItsMeYo> bien dijido
-[20:10:12] [Server thread/INFO]: [Not Secure] <ItsMeYo> owner de meirda
-[20:10:13] [Server thread/INFO]: [Not Secure] <ItsMeYo> mierda
-[20:11:54] [Server thread/INFO]: [Not Secure] [Server] server apagado en 4 minutos
-[20:12:01] [Server thread/INFO]: [Not Secure] <ItsMeYo> nooo staf de mrd
-[20:12:04] [Server thread/INFO]: [Not Secure] <xXxJosue_A> a las 4 era}
-[20:12:57] [Server thread/INFO]: [Not Secure] [Server] para cambio de dificultad sugerido por su compañer
-[20:13:04] [Server thread/INFO]: [Not Secure] <ItsMeYo> nooo owner de mierda
-[20:13:05] [Server thread/INFO]: [Not Secure] <xXxJosue_A> MMMM YAYAYAA
-[20:13:10] [Server thread/INFO]: [Not Secure] <ItsMeYo> tculpandole a uno
-[20:16:05] [Server thread/INFO]: [Not Secure] <xXxJosue_A> ya hay botin?
-[20:16:14] [Server thread/INFO]: [Not Secure] <ItsMeYo> tno
-[20:19:06] [Server thread/INFO]: [Not Secure] <xXxJosue_A> chen
-[20:19:09] [Server thread/INFO]: [Not Secure] <ItsMeYo> que jodes
-[20:19:12] [Server thread/INFO]: [Not Secure] <xXxJosue_A> ya lo sombificaste
-[20:19:20] [Server thread/INFO]: [Not Secure] <ItsMeYo> NO
-[20:19:22] [Server thread/INFO]: [Not Secure] <ItsMeYo> ya se como
-[20:19:23] [Server thread/INFO]: [Not Secure] <ItsMeYo> espera
-[20:20:19] [Server thread/INFO]: [Not Secure] <xXxJosue_A> ya se porque es
-[20:20:34] [Server thread/INFO]: [Not Secure] <xXxJosue_A> no le gusta en nombre de circunsicion
-[20:20:39] [Server thread/INFO]: [Not Secure] <ItsMeYo> XD
-[20:20:41] [Server thread/INFO]: [Not Secure] <ItsMeYo> tbueno te esperas
-[20:20:44] [Server thread/INFO]: [Not Secure] <ItsMeYo> ya tengo la solucion
-[20:21:05] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[20:21:05] [Server thread/INFO]: sasay el server se cerrara<--[HERE]
-[20:21:28] [Server thread/INFO]: [Not Secure] [Server] el server se cerrara
-[20:21:33] [Server thread/INFO]: [Not Secure] <ItsMeYo> noooo era bait
-[20:21:34] [Server thread/INFO]: [Not Secure] <ItsMeYo> no lo comabies
-[20:21:36] [Server thread/INFO]: [Not Secure] <ItsMeYo> cambies
-[20:21:40] [Server thread/INFO]: [Not Secure] <ItsMeYo> ya se como hacerle
-[20:22:47] [Server thread/INFO]: [Not Secure] <ItsMeYo> oye hay slime?
-[20:22:57] [Server thread/INFO]: [Not Secure] <xXxJosue_A> 4 nomas
-[20:23:00] [Server thread/INFO]: [Not Secure] <ItsMeYo> donde
-[20:23:05] [Server thread/INFO]: [Not Secure] <xXxJosue_A> en algun cofre
-[20:23:11] [Server thread/INFO]: [Not Secure] <ItsMeYo> ya le vi
+[20:32:36] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/josue/server/libraries/net/fabricmc/sponge-mixin/0.16.3+mixin.0.8.7/sponge-mixin-0.16.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[20:32:36] [main/INFO]: Compatibility level set to JAVA_16
+[20:32:36] [main/INFO]: Compatibility level set to JAVA_17
+[20:32:36] [main/INFO]: Compatibility level set to JAVA_21
+[20:32:37] [main/INFO]: Preloading Debugify
+[20:32:37] [main/INFO]: Loaded configuration file for Lithium: 131 options available, 3 override(s) found
+[20:32:37] [main/INFO]: Loaded configuration file for ModernFix 5.24.4+mc1.20.1: 70 options available, 0 override(s) found
+[20:32:37] [main/INFO]: Applying Nashorn fix
+[20:32:38] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[20:32:38] [main/WARN]: Force-disabling mixin 'alloc.chunk_ticking.ServerChunkManagerMixin' as rule 'mixin.alloc.chunk_ticking' (added by mods [servercore]) disables it and children
+[20:32:38] [main/WARN]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [krypton]) disables it and children
+[20:32:38] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[20:32:40] [main/INFO]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[20:32:40] [main/INFO]: Injecting BlockStateBase cache population hook into getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[20:32:40] [main/INFO]: Injecting BlockStateBase cache population hook into getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
+[20:32:42] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[20:32:42] [main/INFO]: Vanilla bootstrap took 3715 milliseconds
+[20:32:42] [main/INFO]: Enabled 34 bug fixes: [MC-2025, MC-7569, MC-8187, MC-14923, MC-30391, MC-31819, MC-69216, MC-72151, MC-88371, MC-89146, MC-90084, MC-93018, MC-100991, MC-119417, MC-119754, MC-121706, MC-121903, MC-124117, MC-129909, MC-132878, MC-135971, MC-155509, MC-160095, MC-179072, MC-183990, MC-193343, MC-199467, MC-200418, MC-206922, MC-215530, MC-223153, MC-224729, MC-231743, MC-232869]
+[20:32:42] [main/INFO]: Successfully Debugify'd your game!
+[20:32:42] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 3.0.x (Linux x86_64)
+[20:32:42] [main/INFO]: [ServerCore] Loaded V1.5.2+1.20.1!
+[20:32:42] [main/INFO]: INITIALIZING...
+[20:32:42] [main/INFO]: REGISTERING BACK COMMAND...
+[20:32:42] [main/INFO]: REGISTERING TPAACCEPT COMMAND...
+[20:32:42] [main/INFO]: REGISTERING TPACANCEL COMMAND...
+[20:32:42] [main/INFO]: REGISTERING TPA COMMAND...
+[20:32:42] [main/INFO]: REGISTERING TPADENY COMMAND...
+[20:32:42] [main/INFO]: REGISTERING TPAHERE COMMAND...
+[20:32:42] [main/INFO]: REGISTERING TPAPLUSPLUS COMMAND...
+[20:32:42] [main/INFO]: REGISTERING TPBLOCK COMMAND...
+[20:32:42] [main/INFO]: REGISTERING TPTOGGLE COMMAND...
+[20:32:42] [main/INFO]: REGISTERING TPUNBLOCK COMMAND...
+[20:32:42] [main/INFO]: REGISTERING "LifecycleEvent.SERVER_STARTED"...
+[20:32:42] [main/INFO]: REGISTERING "LifecycleEvent.SERVER_STOPPING"...
+[20:32:42] [main/INFO]: REGISTERING "LifecycleEvent.LIVING_DEATH"...
+[20:32:43] [main/INFO]: REGISTERING "PlayerEvent.PLAYER_JOIN"...
+[20:32:43] [main/INFO]: REGISTERING "PlayerEvent.PLAYER_LEAVE"...
+[20:32:43] [main/INFO]: REGISTERING "RequestTimeoutEvent"...
+[20:32:43] [main/WARN]: USING EXPERIMENTAL NON BLOCKING TICK LOOP
+[20:32:43] [main/INFO]: INITIALIZING TICK LOOP WITH RATE OF 20...
+[20:32:43] [main/INFO]: ...INITIALIZATION COMPLETE
+[20:32:43] [main/INFO]: Registering C2S receiver with id skin_changer:mbechannel/c6416779da663f62836ae72f0509aa3e
+[20:32:43] [main/INFO]: Registering C2S receiver with id skin_changer:mbechannel/8489ea5ae87e3a6199b65ea21ca8f8c8
+[20:32:43] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[20:32:43] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20:32:43] [main/INFO]: Bypassed Mojang DFU
+[20:32:43] [DefaultDispatcher-worker-2/WARN]: You are running an outdated version of TPA++, latest version: 1.6.0-1.20.x-UNTESTED-BETA-3, your version: 1.6.0-1.20.x-RELEASE-CANDIDATE-1!
+[20:32:43] [DefaultDispatcher-worker-2/WARN]: You are 1 version(s) out of date!
+[20:32:45] [main/INFO]: Loaded 7 recipes
+[20:32:45] [main/INFO]: Loaded 1271 advancements
+[20:32:45] [main/WARN]: Initial datapack load took 1.765 s
+[20:32:45] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 1.457 ms
+[20:32:45] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[20:32:45] [Server thread/INFO]: Loading properties
+[20:32:45] [Server thread/INFO]: Default game type: SURVIVAL
+[20:32:45] [Server thread/INFO]: Generating keypair
+[20:32:45] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:32:45] [Server thread/INFO]: Using epoll channel type
+[20:32:45] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:32:45] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:32:45] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:32:45] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:32:45] [Server thread/INFO]: Preparing level "world"
+[20:32:46] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:32:46] [Server thread/WARN]: Method overwrite conflict for removeIf in modernfix-common.mixins.json:bugfix.paper_chunk_patches.SortedArraySetMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.chunk_tickets.SortedArraySetMixin. Skipping method.
+[20:32:47] [Server thread/INFO]: Preparing spawn area: 0%
+[20:32:47] [Server thread/INFO]: Preparing spawn area: 0%
+[20:32:47] [Server thread/INFO]: Preparing spawn area: 0%
+[20:32:47] [Server thread/INFO]: Preparing spawn area: 0%
+[20:32:48] [Server thread/INFO]: Time elapsed: 2175 ms
+[20:32:48] [Server thread/INFO]: Done (2.763s)! For help, type "help"
+[20:32:48] [Server thread/WARN]: Dedicated server took 13.721 seconds to load
+[20:32:48] [Server thread/INFO]: Successfully loaded player data!
+[20:32:57] [Server thread/INFO]: xXxJosue_A[/127.85.241.3:33513] logged in with entity id 82 at (579.0877459861601, 63.0, -257.3883458360129)
+[20:32:57] [Server thread/INFO]: xXxJosue_A joined the game
+[20:32:57] [Server thread/INFO]: Player xXxJosue_A just logged in with id e25aba2a-4334-376d-b48c-98814a8ca31f
+[20:32:57] [ForkJoinPool-4-worker-1/INFO]: Loading local skin for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[20:32:57] [ForkJoinPool-4-worker-1/INFO]: Error downloading file https://playerdb.co/api/player/minecraft/xXxJosue_A
+[20:32:58] [Server thread/INFO]: Syncmatica client joining with local version 0.3.11 and client version 0.3.10
+[20:33:22] [Server thread/INFO]: ItsMeYo[/127.37.229.33:55791] logged in with entity id 500 at (590.9627536685224, 61.0, -254.36310146234035)
+[20:33:22] [Server thread/INFO]: ItsMeYo joined the game
+[20:33:22] [Server thread/INFO]: Player ItsMeYo just logged in with id 4b422bb3-5778-30ef-90d3-fa62ebf0458b
+[20:33:22] [ForkJoinPool-4-worker-1/INFO]: Loading local skin for player ItsMeYo[4b422bb3-5778-30ef-90d3-fa62ebf0458b]
+[20:33:23] [ForkJoinPool-4-worker-1/INFO]: File https://playerdb.co/api/player/minecraft/ItsMeYo downloaded
+[20:33:28] [Server thread/INFO]: Syncmatica client joining with local version 0.3.11 and client version 0.3.11
+[20:35:31] [Server thread/INFO]: [Not Secure] <ItsMeYo> josue perdon voy a agararr estos bloques de slime
+[20:35:38] [Server thread/INFO]: [Not Secure] <xXxJosue_A> nooooo
+[20:40:22] [Server thread/INFO]: [Not Secure] [Server] y mate nunca llego
+[20:40:29] [Server thread/INFO]: [Not Secure] [Server] pero asi son
+[20:40:31] [Server thread/INFO]: [Not Secure] <xXxJosue_A> carajo
+[20:40:53] [Server thread/INFO]: [Not Secure] [Server] luego te piden que prendas el server y ahi se ve el tipo de personas con la cual uno se junta
+[20:41:11] [Server thread/INFO]: [Not Secure] <xXxJosue_A> carajo si no ves nada no te quejes{}
+[20:41:14] [Server thread/INFO]: [Not Secure] [Server] es como una puñalada por la espalda
+[20:41:20] [Server thread/INFO]: [Not Secure] <xXxJosue_A> ya te paso ahorita
+[20:41:29] [Server thread/INFO]: [Not Secure] [Server] okey bb
+[20:42:40] [Server thread/INFO]: [Not Secure] [Server] eso en que idioma esta
+[20:43:18] [Server thread/INFO]: [Not Secure] [Server] cualquiera le ponia flash pero gracias
+[20:54:09] [Server thread/INFO]: [Not Secure] <xXxJosue_A> que vrg me iso perder 10 min del tiempo
+[20:54:15] [Server thread/INFO]: [Not Secure] <ItsMeYo> XD}
+[20:54:17] [Server thread/INFO]: [Not Secure] <xXxJosue_A> ya hay luting?
+[20:54:26] [Server thread/INFO]: [Not Secure] <ItsMeYo> QUE NO COÑO M ESTA EXPLOTANDO LA CABEZA ESpeRA
+[20:56:51] [Server thread/INFO]: [Not Secure] <xXxJosue_A> me viooolaaaaan
+[20:57:39] [Server thread/INFO]: [Not Secure] <ItsMeYo> manda tpa
+[21:00:41] [Server thread/INFO]: [Not Secure] <xXxJosue_A> loco
+[21:00:44] [Server thread/INFO]: [Not Secure] <ItsMeYo> tque
+[21:01:14] [Server thread/INFO]: [Not Secure] <xXxJosue_A> nos urge unalmacen para la granja
+[21:01:18] [Server thread/INFO]: [Not Secure] <ItsMeYo> tsi
+[21:01:52] [Server thread/INFO]: [Not Secure] <ItsMeYo> te queiro
+[21:01:53] [Server thread/INFO]: [Not Secure] <ItsMeYo> mata
+[21:04:17] [Server thread/INFO]: [Not Secure] <xXxJosue_A> vhen estas ocipado}}}
+[21:04:22] [Server thread/INFO]: [Not Secure] <ItsMeYo> mucho
+[21:04:30] [Server thread/INFO]: [Not Secure] <ItsMeYo> estoy usando puertas logicas para ver como soluciono esto
+[21:06:47] [Server thread/INFO]: [Not Secure] [Server] atencion el server sera cerrado a las 4:15
+[21:06:52] [Server thread/INFO]: [Not Secure] <ItsMeYo> NO ALA NOO
+[21:06:55] [Server thread/INFO]: [Not Secure] <ItsMeYo> ahora no
+[21:07:00] [Server thread/INFO]: [Not Secure] <ItsMeYo> te lo ruego deja prendido el sv
+[21:07:12] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[21:07:12] [Server thread/INFO]: asay ya me tengo q ir<--[HERE]
+[21:07:18] [Server thread/INFO]: [Not Secure] [Server] ya me toca ir
+[21:07:25] [Server thread/INFO]: [Not Secure] <ItsMeYo> tmr noo
+[21:07:38] [Server thread/INFO]: [Not Secure] <xXxJosue_A> deja el celular prendido
+[21:07:48] [Server thread/INFO]: [Not Secure] [Server] y luego se apsay y luego se apaga sin avisar 
+[21:07:49] [Server thread/INFO]: [Not Secure] <xXxJosue_A> habrelo desde el cel
+[21:08:06] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[21:08:06] [Server thread/INFO]: puta que me voy al entrenamiento digo<--[HERE]
+[21:08:30] [Server thread/INFO]: [Not Secure] [Server] puta que me voy al entrenamiento digo, que prefieren apagar avisando o que se apague solo
+[21:08:38] [Server thread/INFO]: [Not Secure] <ItsMeYo> tmr
+[21:08:53] [Server thread/INFO]: [Not Secure] [Server] por inactividad
+[21:09:01] [Server thread/INFO]: [Not Secure] <ItsMeYo> por inactividad
+[21:09:04] [Server thread/INFO]: [Not Secure] <ItsMeYo> dejslo prendido
+[21:09:07] [Server thread/INFO]: [Not Secure] <ItsMeYo> para siempre
+[21:09:08] [Server thread/INFO]: [Not Secure] <ItsMeYo> o nose
+[21:09:32] [Server thread/INFO]: [Not Secure] [Server] mejor apuren haciendo lo que esten haciendo que ya me voy
+[21:09:50] [Server thread/INFO]: [Not Secure] <xXxJosue_A> espera
+[21:11:22] [Server thread/INFO]: [Not Secure] <ItsMeYo> no tocaran el trading hall ya me salgo
+[21:11:23] [Server thread/INFO]: ItsMeYo lost connection: Disconnected
+[21:11:23] [Server thread/INFO]: ItsMeYo left the game
+[21:11:23] [Server thread/INFO]: Removing session data for player ItsMeYo[4b422bb3-5778-30ef-90d3-fa62ebf0458b]
+[21:11:32] [Server thread/INFO]: xXxJosue_A lost connection: Disconnected
+[21:11:32] [Server thread/INFO]: xXxJosue_A left the game
+[21:11:32] [Server thread/INFO]: Removing session data for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
